@@ -8,4 +8,10 @@
         </classes>
     </test>
 
+    <test name="PhpTravelsTest" parallel="false" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="PhpTravelsTest"/>
+        </classes>
+    </test>
 </suite>
